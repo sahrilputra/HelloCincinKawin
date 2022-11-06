@@ -73,7 +73,7 @@ export default function Home() {
           <div className={`${styles.cardList}`}>
             <div className={`${styles.textLeft}`}>
               <p className=' text-uppercase'>BELI SEKARANG</p>
-              <h2>Best product's</h2>
+              <h2>Best products</h2>
               <p>Kami membuat cincin dengan berlian yang sangat langka, Dengan melakukan itu, kami menciptakan sesuatu yang tidak hanya brilian, tetapi juga legendaris.</p>
               <button className='btn '>Lihat Semua Product</button>
             </div>
@@ -245,10 +245,7 @@ export default function Home() {
         </div>
 
         <div className={`${styles.footer}`}>
-          <div className="d-grid g-4">
-            <h1>HE</h1>
-            <h2>he</h2>
-          </div>
+
         </div>
       </body>
     </>
