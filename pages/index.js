@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <body>
+      <body className='bg-dark'>
         <div className={styles.container}>
           <div className={`${styles.tentang}`}>
             <h1>Tentang Kami</h1>
