@@ -159,7 +159,7 @@
 }
 
 .cardList{
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
@@ -260,6 +260,27 @@
   text-align: center;
   font-size: 18px;
 }
+.slideParent{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  justify-items: center;
+
+
+}
+
+.carousel{
+  width: 100%;
+  object-fit: cover;
+}
+/* .carousel Image{
+  object-fit: contain;
+  width: 220px;
+  height: 120px;
+  
+} */
+
 
 @media (max-width: 600px) {
   .grid {

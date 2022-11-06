@@ -3,15 +3,13 @@ import Head from 'next/head'
 import Image from 'next/image'
 import BestProduct from '../component/bestProduct';
 import Collection from '../component/Collection';
+import SlideCollection from '../component/slideCollection';
 import Testimoni from '../component/Testimoni';
 import styles from '../styles/Home.module.css'
-
 export default function Home() {
   const { theme, setTheme } = useTheme();
   return (
     <div className="parent bg-black dark:bg-white dark:text-white">
-
-
       <div className={styles.container}>
         <div className={`${styles.tentang}`}>
           <h1>Tentang Kami</h1>
@@ -71,9 +69,11 @@ export default function Home() {
 
       <BestProduct></BestProduct>
 
+      <h1 className=' text-yellow-200 text-center fs-1 p-4 uppercase font-serif'>Koleksi Kami</h1>
+      <SlideCollection></SlideCollection>
       <Collection></Collection>
-
       <Testimoni></Testimoni>
+
 
       <div className={`${styles.container}`}>
         <div className={`${styles.layanan}`}>

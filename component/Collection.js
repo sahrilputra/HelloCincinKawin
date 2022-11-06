@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Collection = () => {
     return (
         <div className={`${styles.main} our-collection text-white`}>
-            <h1>KOLEKSI KAMI</h1>
+
             <div className={`${styles.collection}`}>
                 <div className={`${styles.catalog}`}>
                     <Image

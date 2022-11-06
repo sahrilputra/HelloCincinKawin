@@ -44,6 +44,17 @@ const Testimoni = () => {
                         />
                     </div>
                 </div>
+                <div className={`${styles.cardRight} shadow-sm`}>
+                    <div className={`${styles.imgCr}`}>
+                        <Image
+                            alt='Cr-1'
+                            src="/product/cr1.png"
+                            width={200}
+                            height={200}
+                            object-fit="fill"
+                        />
+                    </div>
+                </div>
 
             </div>
         </div>
