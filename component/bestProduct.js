@@ -1,5 +1,6 @@
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
+import Link from 'next/link'
 const BestProduct = () => {
     return (
 
@@ -9,7 +10,7 @@ const BestProduct = () => {
                     <p className=' text-uppercase'>BELI SEKARANG</p>
                     <h2>Best products</h2>
                     <p>Kami membuat cincin dengan berlian yang sangat langka, Dengan melakukan itu, kami menciptakan sesuatu yang tidak hanya brilian, tetapi juga legendaris.</p>
-                    <button className='btn '>Lihat Semua Product</button>
+                    <button className='btn '> <Link href="/Contact">Lihat Semua Product</Link></button>
                 </div>
                 <div className={`${styles.cardRight} shadow-sm`}>
                     <div className={`${styles.catalog}`}>

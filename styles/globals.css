@@ -7,3 +7,11 @@
     @apply dark:bg-black dark:text-white
   }
 }
+
+.contactPage{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

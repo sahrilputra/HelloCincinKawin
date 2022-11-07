@@ -23,7 +23,7 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -144,19 +144,28 @@
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 10px;
 }
 
 .item{
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   background-color: #282828;
   border-radius: 50%;
-  margin: 40px;
-  padding: 10px;
-  line-height: 40px;
   color: #ebca7b;
+  text-align: center;
+  font-size: 22px;
+  padding: 10px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-top: 70px;
+  padding: 12px;
+  margin-bottom: 40px;
 }
+
 
 .cardList{
   width: 100%;
@@ -206,6 +215,8 @@
   padding: 5px;
   margin: 2px;
 }
+
+
 .imgCr{
   width: 100%;
   background-color: white;
@@ -252,6 +263,40 @@
   height: 200px;
   border-radius: 12px;
 }
+
+
+@media only screen and (max-width: 600px) {
+ .item{
+  margin: 24px;
+  width: 90px;
+  height: 90px;
+  font-size: 18px;
+ }
+ .catalog{
+  width: 180px;
+ }
+ .cardRight{
+  display: flex;
+  justify-content: space-around;
+  width: 180px;
+  
+ }
+
+ .collection{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+ }
+ .catalog{
+  width: 18 0px;
+ }
+
+ .main{
+  width: 100%;
+
+ }
+}
+
 .catalog :hover{
     cursor: pointer;
 }
@@ -281,11 +326,22 @@
   
 } */
 
+.footerList{
+  color: #ebca7b;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+  .itemFooter{
+    width: 40%;
+    
   }
 }
 
